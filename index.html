@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/popup.css" />
+    <script src="/assets/popup.js" defer></script>
+    <title>Popup</title>
+  </head>
+  <body>
+    <div class="body">
+        <h1>Add Gift</h1>
+        <form>
+          <div class="input_block">
+            <label>Title</label>
+            <input type="txt" placeholder="add later" />
+          </div>
+          <div class="input_block">
+            <label>Pick Image</label>
+            <div class="image-picker">
+              <div class="image_container">
+                <!-- <img src="https://m.media-amazon.com/images/I/71Wgp8rygpL._AC_SY355_.jpg" alt="insert later" /> -->
+                <img src="" alt="no image" />
+              </div>
+              <div class="btn--controls">
+                <button type="button">Nxt</button>
+                <button type="button">Bck</button>
+                <button type="button">Clear</button>
+              </div>
+            </div>
+          </div>
+          <div class="input_block">
+            <label>Link</label>
+            <input type="url" readonly value="amazon.com" />
+          </div>
+          <div class="form-buttons">
+            <button>Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+  </body>
+</html>

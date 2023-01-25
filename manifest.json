@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "extension",
+  "version": "1.0",
+
+  "icons": {
+    "16": "icons/gift-16.png",
+    "24": "icons/gift-24.png",
+    "32": "icons/gift-32.png",
+    "64": "icons/gift-64.png",
+    "128": "icons/gift-128.png",
+    "256": "icons/gift-256.png",
+    "512": "icons/gift-512.png"
+  },
+
+  "host_permissions": ["https://*/*"],
+
+  "action": {
+    "default_popup": "index.html"
+  }
+}
+
